@@ -1,8 +1,15 @@
 [package]
+authors = ["andihsu", "3261429104@qq.com"]
 name = "quic_serv"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.82"
+log = "0.4.21"
+rand = "0.8.5"
+rcgen = "0.13.1"
+rsa = "0.9.6"
+s2n-quic = "1.37.0"
+tokio = { version = "1.37.0", features = ["full"] }
